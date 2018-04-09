@@ -1,5 +1,5 @@
 "#####display setting#####
-colorscheme peachpuff "change colorscheme
+colorscheme darkblue "change colorscheme
 syntax enable "add color for syntax
 set number "show line numbers
 hi LineNr term=NONE cterm=NONE ctermfg=gray ctermbg=NONE "set the color of line number
@@ -12,6 +12,8 @@ set nowrap "prohibit wrapping
 set cursorline "show cursor line
 hi clear CursorLine "clear cursor line
 hi CursorLineNr term=underline cterm=NONE ctermfg=yellow ctermbg=NONE "set the color of cursor number
+hi Comment ctermfg=243 "set the color of comment
+hi ErrorMsg ctermfg=white ctermbg=124 "change the color of error message
 
 "#####search setting#####
 set ignorecase "search regardless of upper or lower case
