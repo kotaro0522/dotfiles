@@ -1,5 +1,5 @@
 "#####display setting#####
-colorscheme desert "change colorscheme
+colorscheme peachpuff "change colorscheme
 syntax enable "add color for syntax
 set number "show line numbers
 hi LineNr term=NONE cterm=NONE ctermfg=gray ctermbg=NONE "set the color of line number
