@@ -1,4 +1,6 @@
 "#####display setting#####
+autocmd Colorscheme * highlight FullWidthSpace ctermbg=red "emphasize full-width space
+autocmd VimEnter * match FullWidthSpace /　/ "emphasize full-width space
 colorscheme darkblue "change colorscheme
 syntax enable "add color for syntax
 set number "show line numbers
