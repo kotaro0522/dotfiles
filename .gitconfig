@@ -4,6 +4,7 @@
 	ui = auto
 [alias]
 	st = status
+	co = commit
 [help]
 	autocorrect = 1
 [user]
