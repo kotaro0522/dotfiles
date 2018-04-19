@@ -1,0 +1,9 @@
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+[help]
+	autocorrect = 1
+[user]
+	name = kotaro0522
+	email = gemini.522.kotaro@gmail.com
