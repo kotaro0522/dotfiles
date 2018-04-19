@@ -2,6 +2,8 @@
 	excludesfile = ~/.gitignore
 [color]
 	ui = auto
+[alias]
+	st = status
 [help]
 	autocorrect = 1
 [user]
