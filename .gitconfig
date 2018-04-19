@@ -7,8 +7,11 @@
 	co = commit
 	ad = add
 	br = branch
+	di = diff
 [help]
 	autocorrect = 1
+[push]
+	default = current
 [user]
 	name = kotaro0522
 	email = gemini.522.kotaro@gmail.com
