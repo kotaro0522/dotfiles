@@ -5,6 +5,8 @@
 [alias]
 	st = status
 	co = commit
+	ad = add
+	br = branch
 [help]
 	autocorrect = 1
 [user]
