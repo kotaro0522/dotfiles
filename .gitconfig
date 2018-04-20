@@ -5,8 +5,9 @@
 [alias]
 	st = status
 	co = commit
-	ad = add
-	br = branch
+	a = add
+	b = branch
+	ch = checkout
 	di = diff
 	lo = log --oneline -5
 [help]
