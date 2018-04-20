@@ -1,19 +1,19 @@
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [color]
-	ui = auto
+  ui = auto
 [alias]
-	st = status
-	ci = commit
-	a = add
-	b = branch
-	co = checkout
-	di = diff
-	l = log --oneline -5
+  st = status
+  ci = commit
+  a = add
+  b = branch
+  co = checkout
+  di = diff
+  l = log --oneline -5
 [help]
-	autocorrect = 1
+  autocorrect = 1
 [push]
-	default = current
+  default = current
 [user]
-	name = kotaro0522
-	email = gemini.522.kotaro@gmail.com
+  name = kotaro0522
+  email = gemini.522.kotaro@gmail.com

@@ -21,7 +21,7 @@ hi ErrorMsg ctermfg=white ctermbg=124 "change the color of error message
 "#####search setting#####
 set ignorecase "search regardless of upper or lower case
 set hlsearch "highlight search word
-set wrapscan "return back from the end of search to the top			
+set wrapscan "return back from the end of search to the top
 
 "#####omni completion#####
 set omnifunc=syntaxcomplete#Complete
@@ -29,8 +29,8 @@ set omnifunc=syntaxcomplete#Complete
 "#####auto command#####
 "show complement HTML closing tag
 augroup close_html_tag
-	autocmd!
-	autocmd Filetype xml inoremap <buffer> </ </<C-x><C-p><C-n>
-	autocmd Filetype html inoremap <buffer> </ </<C-x><C-p><C-n>
-	autocmd Filetype eruby inoremap <buffer> </ </<C-x><C-p><C-n>
+  autocmd!
+  autocmd Filetype xml inoremap <buffer> </ </<C-x><C-p><C-n>
+  autocmd Filetype html inoremap <buffer> </ </<C-x><C-p><C-n>
+  autocmd Filetype eruby inoremap <buffer> </ </<C-x><C-p><C-n>
 augroup END
