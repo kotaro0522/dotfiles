@@ -4,12 +4,12 @@
 	ui = auto
 [alias]
 	st = status
-	co = commit
+	ci = commit
 	a = add
 	b = branch
-	ch = checkout
+	co = checkout
 	di = diff
-	lo = log --oneline -5
+	l = log --oneline -5
 [help]
 	autocorrect = 1
 [push]
