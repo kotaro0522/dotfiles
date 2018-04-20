@@ -8,6 +8,7 @@
 	ad = add
 	br = branch
 	di = diff
+	lo = log --oneline -5
 [help]
 	autocorrect = 1
 [push]
