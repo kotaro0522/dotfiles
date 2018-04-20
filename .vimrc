@@ -5,6 +5,7 @@ colorscheme darkblue "change colorscheme
 syntax enable "add color for syntax
 set number "show line numbers
 hi LineNr term=NONE cterm=NONE ctermfg=gray ctermbg=NONE "set the color of line number
+set expandtab "replace tab with spaces
 set tabstop=2 "width of tab as shown
 set softtabstop=2 "width of tab input by tab key
 set shiftwidth=2 "widhth of automatic indent
