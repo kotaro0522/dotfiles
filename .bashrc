@@ -7,7 +7,7 @@ alias grep='grep --color=auto'
 
 alias py='python'
 
-# set alias to copy the content of a file for Mac
+# set alias to copy the content of a file to clipboard for Mac
 if [ "$(uname)" == 'Darwin' ]; then
   function cop() {
     cat $1 | pbcopy
