@@ -17,6 +17,12 @@ hi clear CursorLine "clear cursor line
 hi CursorLineNr term=underline cterm=NONE ctermfg=yellow ctermbg=NONE "set the color of cursor number
 hi Comment ctermfg=243 "set the color of comment
 hi ErrorMsg ctermfg=white ctermbg=124 "change the color of error message
+"###diff color###
+hi DiffAdd ctermbg=2
+hi DiffChange ctermbg=6
+hi DiffDelete ctermfg=black ctermbg=1
+hi DiffText ctermbg=4
+
 
 "#####search setting#####
 set ignorecase "search regardless of upper or lower case
