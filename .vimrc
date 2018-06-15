@@ -1,7 +1,7 @@
 "#####display setting#####
 autocmd Colorscheme * highlight FullWidthSpace ctermbg=red "emphasize full-width space
 autocmd VimEnter * match FullWidthSpace /　/ "emphasize full-width space
-colorscheme darkblue "change colorscheme
+colorscheme ron "change colorscheme
 syntax enable "add color for syntax
 set number "show line numbers
 hi LineNr term=NONE cterm=NONE ctermfg=gray ctermbg=NONE "set the color of line number
@@ -27,7 +27,7 @@ hi DiffText ctermbg=4
 "#####search setting#####
 set ignorecase "search regardless of upper or lower case
 set hlsearch "highlight search word
-set wrapscan "return back from the end of search to the top
+set wrapscan "return back from the end of search to the top  		
 
 "#####omni completion#####
 set omnifunc=syntaxcomplete#Complete
