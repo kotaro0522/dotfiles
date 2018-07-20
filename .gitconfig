@@ -10,6 +10,7 @@
   co = checkout
   di = diff
   l = log --oneline -5
+  lg = log --graph --oneline
 [help]
   autocorrect = 1
 [push]
