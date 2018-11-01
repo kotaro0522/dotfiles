@@ -11,8 +11,13 @@
   di = diff
   l = log --oneline -5
   lg = log --graph --oneline
+  delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+  fp = !git fetch && git-delete-merged-branches
+  pp = !git pull && git-delete-merged-branches
 [help]
   autocorrect = 1
+[fetch]
+  prune = true
 [push]
   default = current
 [user]
