@@ -1,0 +1,12 @@
+# マシン固有の状態（ユニバーサル変数など）
+fish_variables
+
+# fisher が fish_plugins から自動で入れるファイル（`fisher update` で復元される）
+functions/fisher.fish
+completions/fisher.fish
+functions/__ghq_repository_search.fish
+completions/ghq.fish
+conf.d/ghq_key_bindings.fish
+
+# コマンドが生成する補完（`copilot completion fish > ~/.config/fish/completions/copilot.fish` で再生成）
+completions/copilot.fish
